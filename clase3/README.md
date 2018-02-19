@@ -13,8 +13,22 @@
   - [Instalación](#instalaci%C3%B3n)
   - [Hello World!](#hello-world)
   - [Generador de Express](#generador-de-express)
-  - [PUG (antes Jade)](#pug-antes-jade)
-  - [Ejercicios](#ejercicios)
+  - [Partes Claves](#partes-claves)
+- [Mecánica](#mec%C3%A1nica)
+  - [Mecánica: app.set()](#mec%C3%A1nica-appset)
+  - [Mecánica: app.all(), app.get(), app.post(), app.put(), app.delete(), app.route()](#mec%C3%A1nica-appall-appget-apppost-appput-appdelete-approute)
+  - [Mecánica: app.use()](#mec%C3%A1nica-appuse)
+- [Middleware: La clave](#middleware-la-clave)
+  - [Middleware de nivel de aplicación](#middleware-de-nivel-de-aplicaci%C3%B3n)
+  - [Middleware de nivel de direccionador](#middleware-de-nivel-de-direccionador)
+  - [Middleware de manejo de errores](#middleware-de-manejo-de-errores)
+  - [Middleware incorporado](#middleware-incorporado)
+  - [Middleware: Más Middleware, más funcionalidad](#middleware-m%C3%A1s-middleware-m%C3%A1s-funcionalidad)
+- [Ejemplos con Express](#ejemplos-con-express)
+- [Express en resumen](#express-en-resumen)
+  - [Utilidades](#utilidades)
+- [PUG (antes Jade)](#pug-antes-jade)
+- [Ejercicios](#ejercicios)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -78,14 +92,14 @@
 
 ### Hello World!
 
-  ```
-  const express= require('express');
-  const app = express();
-  
-  app.get('/', (req, res) => res.send('Hello World!'));
-  
-  app.listen(8080, () => console.log('Example app listening on port 8080'));
-  ```
+```javascript
+const express= require('express');
+const app = express();
+
+app.get('/', (req, res) => res.send('Hello World!'));
+
+app.listen(8080, () => console.log('Example app listening on port 8080'));
+```
 
 
 ### Generador de Express
@@ -150,15 +164,15 @@
 
 - Opcional: [Volviendo el arranque al estilo Express 3.x](http://expressjs.com/es/guide/migrating-4.html#app-gen)
 
-**Partes Claves**
+### Partes Claves 
 - [express()](http://expressjs.com/es/4x/api.html#express)
 - [Application](http://expressjs.com/es/4x/api.html#application)
 - [Request](http://expressjs.com/es/4x/api.html#request)
 - [Response](http://expressjs.com/es/4x/api.html#response)
 - [Router](http://expressjs.com/es/4x/api.html#router)
 
-
-**Mecánica: app.set()**
+## Mecánica
+### Mecánica: app.set()
 - Nos permite establecer la configuración de Express
 - Podemos almacenar datos personalizados de manera global
 - Ejemplos
@@ -262,7 +276,7 @@
 - [Comparativa de Motores de plantillas](https://developer.ibm.com/node/2014/11/11/compare-javascript-templates-jade-mustache-dust/)
 
 
-**Mecánica: app.all(), app.get(), app.post(), app.put(), app.delete(), app.route()**
+### Mecánica: app.all(), app.get(), app.post(), app.put(), app.delete(), app.route()
 
 ```javascript
 app.METODO(Ruta, Manejador)
@@ -541,7 +555,7 @@ app.METODO(Ruta, Manejador)
   - [res.sendStatus()](http://expressjs.com/es/4x/api.html#res.sendStatus) *Envía un archivo para ser descargado.*
 
 
-**Mecánica: app.use()**
+### Mecánica: app.use()
 - Usando Middleware: app.use(middleware)
   - Declaración directa 
 
@@ -572,7 +586,7 @@ app.METODO(Ruta, Manejador)
     app.listen(3000);    
     ```
 
-**Middleware: La clave**
+## Middleware: La clave
 
 ![Mw_schema](http://image.slidesharecdn.com/introtonode-140914093424-phpapp01/95/intro-to-nodejs-14-638.jpg?cb=1410687757)
 
@@ -589,7 +603,7 @@ Una función que recibe 3 o 4 parámetros: req, res, next
   - Al terminar su tarea, tiene que invocar a next()
 
 
-**Middleware de nivel de aplicación**
+### Middleware de nivel de aplicación
 - Global *Afecta a cualquier Ruta*
 
   ```javascript
@@ -614,7 +628,7 @@ Una función que recibe 3 o 4 parámetros: req, res, next
   });
   ```
 
-**Middleware de nivel de direccionador**
+### Middleware de nivel de direccionador
 - Global *Afecta a cualquier Ruta*
 
   ```javascript
@@ -641,7 +655,7 @@ Una función que recibe 3 o 4 parámetros: req, res, next
   });
   ```
 
-**Middleware de manejo de errores**
+### Middleware de manejo de errores
 - Argumento adiccional
 
   ```javascript
@@ -662,7 +676,7 @@ Una función que recibe 3 o 4 parámetros: req, res, next
   //...
   ```
 
-**Middleware incorporado**
+### Middleware incorporado
 - Desde la versión 4.x Express no depende de [Connect](https://github.com/senchalabs/connect)
 - Solamente queda incorporado [express.static](https://github.com/expressjs/serve-static)
   - Incluyendo archivos estáticos
@@ -745,7 +759,7 @@ Una función que recibe 3 o 4 parámetros: req, res, next
   - [connect-markdown](https://github.com/expressjs/connect-markdown)
     - *Auto convert markdown to html for connect.*
 
-**Middleware: Más Middleware, más funcionalidad**
+### Middleware: Más Middleware, más funcionalidad
 - [La lista de Raynos](https://github.com/Raynos/http-framework)
 
 - Habilitando CORS
@@ -840,10 +854,10 @@ Una función que recibe 3 o 4 parámetros: req, res, next
   });
   ```
 
-**[Ejemplos con Express](https://github.com/expressjs/express/tree/master/examples)**
+## [Ejemplos con Express](https://github.com/expressjs/express/tree/master/examples)
 
 
-**Express en resumen**
+## Express en resumen
 
 - GET Básico
 
@@ -927,7 +941,7 @@ Una función que recibe 3 o 4 parámetros: req, res, next
         li= "seguro en regla: " +datos.seguroPasado
   ```
 
-**Utilidades**
+### Utilidades
 
 - Recuperar cabeceras:
 
@@ -940,7 +954,7 @@ Una función que recibe 3 o 4 parámetros: req, res, next
 
 
 
-### PUG (antes Jade)
+## PUG (antes Jade)
 
 ![Jade_logo](https://css-tricks.com/wp-content/uploads/2016/01/jade-logo-1.png)
 
@@ -1083,7 +1097,7 @@ Una función que recibe 3 o 4 parámetros: req, res, next
 - [Jade Syntax Documentation by example](http://naltatis.github.io/jade-syntax-docs/)
 
 
-### Ejercicios
+## Ejercicios
 
 **1 -** Crearemos una aplciación utilizando Express para gestionar las peliculas que nos gustan.
 
