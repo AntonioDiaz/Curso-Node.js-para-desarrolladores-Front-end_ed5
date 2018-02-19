@@ -2,6 +2,48 @@
 
 ![nodejs](http://jonmircha.github.io/slides-nodejs/img/node-is-coming.jpg)
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Contenidos**
+
+- [Trabajando con APIs](#trabajando-con-apis)
+- [AJAX](#ajax)
+- [JSON](#json)
+- [JSONP](#jsonp)
+- [Programación dirigida a eventos](#programaci%C3%B3n-dirigida-a-eventos)
+- [Terminal UNIX](#terminal-unix)
+- [Multipurpose Internet Mail Extensions (MIME)](#multipurpose-internet-mail-extensions-mime)
+- [Nodejs](#nodejs)
+- [Hello World](#hello-world)
+- [Librerías Nativas (CORE)](#librer%C3%ADas-nativas-core)
+- [HTTP](#http)
+- [URL](#url)
+- [Asincronía:](#asincron%C3%ADa)
+- [Mantener Node funcionando](#mantener-node-funcionando)
+- [File System](#file-system)
+- [Events](#events)
+- [Repasar los conceptos clave](#repasar-los-conceptos-clave)
+- [Process](#process)
+- [Creando ejecutables](#creando-ejecutables)
+- [Child Process](#child-process)
+- [Cluster](#cluster)
+- [Buffer](#buffer)
+- [Stream](#stream)
+- [Variables del Entorno](#variables-del-entorno)
+- [Modularización](#modularizaci%C3%B3n)
+- [Modularización: Usando exports](#modularizaci%C3%B3n-usando-exports)
+- [Modularización: Usando module.exports](#modularizaci%C3%B3n-usando-moduleexports)
+- [NPM](#npm)
+- [Dependency Hell:](#dependency-hell)
+- [Seguridad:](#seguridad)
+- [package.json](#packagejson)
+- [npm scripts (comandos de CLI)](#npm-scripts-comandos-de-cli)
+- [NVM  (manejando varias versiones de Node)](#nvm--manejando-varias-versiones-de-node)
+- [Actualizando Node (método alternativo)](#actualizando-node-m%C3%A9todo-alternativo)
+- [Ejercicios](#ejercicios)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### Trabajando con APIs
 
 > Una API representa la capacidad de comunicación entre componentes de software.
