@@ -7,14 +7,15 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Contenidos**
 
-    - [Automatización, JavaScript Server-Side, Express, Yeoman, Gulp, Bower, Heroku, Firebase, Bots.](#automatizaci%C3%B3n-javascript-server-side-express-yeoman-gulp-bower-heroku-firebase-bots)
+- [Automatización, JavaScript Server-Side, Express, Yeoman, Gulp, Bower, Heroku, Firebase, Bots.](#automatizaci%C3%B3n-javascript-server-side-express-yeoman-gulp-bower-heroku-firebase-bots)
 - [Sobre el Curso](#sobre-el-curso)
 - [Teoría y Recursos](#teor%C3%ADa-y-recursos)
 - [Temario](#temario)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-### Automatización, JavaScript Server-Side, Express, Yeoman, Gulp, Bower, Heroku, Firebase, Bots.
+## Automatización, JavaScript Server-Side, Express, Yeoman, Gulp, Bower, Heroku, Firebase, Bots.
+
 
 ![WideImg](http://www.fictizia.com/assets/styles/styleImgs/wideBox/widebox_nodejs.png)
 ![Fictizia Logo](https://media.licdn.com/media/p/1/000/1ed/254/29475de.png)
@@ -42,13 +43,12 @@ Como metodología de trabajo durante el curso, los alumnos desarrollarán como p
 * Aprender cómo crear proyectos interactivos que requieran de un API Rest.
 * Automatizar tareas comunes como la construcción de proyectos web.
 
-Sobre el Curso
-=================
+## Sobre el Curso
+
 * Horario: Viernes de 19:00 a 22:00
 * Fechas: 02/02/2018 - 23/03/2018
 
-Teoría y Recursos
-=================
+## Teoría y Recursos
 
 | Documentación | Recursos | Resumen |
 |--------|---------|---------|
@@ -62,8 +62,7 @@ Teoría y Recursos
 | Clase 8 | Clase 8 | Creando bots "inteligentes" |
 
 
-Temario
-=================
+## Temario
 
 **Control de Versiones (Git y GitHub)**
 
