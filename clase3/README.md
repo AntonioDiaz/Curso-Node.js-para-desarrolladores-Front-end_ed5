@@ -1,8 +1,25 @@
-### Express
+# Express
 
 ![Express_logo](https://i.cloudup.com/zfY6lL7eFa-3000x3000.png)
 
-**Influencias / usos**
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Contenidos**
+
+- [Introducción](#introducci%C3%B3n)
+  - [Influencias / usos](#influencias--usos)
+  - [Pros y Contras](#pros-y-contras)
+  - [Migraciones](#migraciones)
+  - [Instalación](#instalaci%C3%B3n)
+  - [Hello World!](#hello-world)
+  - [Generador de Express](#generador-de-express)
+  - [PUG (antes Jade)](#pug-antes-jade)
+  - [Ejercicios](#ejercicios)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Introducción
+### Influencias / usos
 - Otros frameworks similares:
   - Zend (PHP)
   - Django (Python)
@@ -13,6 +30,7 @@
   - Single Page Applications
   - App tiempo real
 
+### Pros y Contras
 **Pros**
 - Rutas
 - Parámetros
@@ -30,7 +48,7 @@
 - Deployment
 - Organización del código
 
-**Migraciones**
+### Migraciones
 - [De Express 3.x a Express 4.x](http://expressjs.com/es/guide/migrating-4.html)
   - [Documentación de la 3.x (desuso)](http://expressjs.com/es/3x/api.html)
   - [Cambios](http://expressjs.com/es/guide/migrating-4.html)
@@ -39,8 +57,7 @@
   - [Cambios Previstos](https://github.com/expressjs/express/pull/2237?_ga=1.29731835.554285759.1461232316)
 
 
-**Instalación**
-
+### Instalación
 - Instalación local:
 
   ```
@@ -59,18 +76,19 @@
   npm install -g express@3.x
   ```
 
-**Hello World!**
+### Hello World!
 
-  ```javascript
+  ```
   const express= require('express');
   const app = express();
   
   app.get('/', (req, res) => res.send('Hello World!'));
   
   app.listen(8080, () => console.log('Example app listening on port 8080'));
-```
+  ```
 
-**Generador de Express**
+
+### Generador de Express
 
 - Instalación global del generador
 
