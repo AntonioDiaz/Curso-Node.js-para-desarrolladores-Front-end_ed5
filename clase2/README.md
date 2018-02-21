@@ -1306,7 +1306,7 @@ console.log("===================================");
 
 **[Librerías interesantes de node](https://github.com/sindresorhus/awesome-nodejs#command-line-utilities)**
 
-- ** Comprobar versión**
+- **Comprobar versión**
 
   ```
   npm -v
