@@ -1,5 +1,24 @@
 # Clase 4
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Contenidos**
+
+- [WebSockets](#websockets)
+- [WS: Nativo](#ws-nativo)
+- [Socket.io](#socketio)
+  - [Client side](#client-side)
+  - [Server Side](#server-side)
+- [Nativo vs. Librerías](#nativo-vs-librer%C3%ADas)
+- [Ejemplos](#ejemplos)
+- [Heroku](#heroku)
+  - [Uso](#uso)
+- [Heroku: Addons](#heroku-addons)
+- [Otros paquetes](#otros-paquetes)
+- [Ejercicios](#ejercicios)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### WebSockets
 
 > WebSocket es una tecnología que proporciona un canal de comunicación bidireccional y full-duplex sobre un único socket TCP. Está diseñada para ser implementada en navegadores y servidores web, pero puede utilizarse por cualquier aplicación cliente/servidor.
