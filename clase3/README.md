@@ -345,7 +345,7 @@ app.METODO(Ruta, Manejador)
 
   ```javascript
   app.get('/hello/:nombre', (req, res) => {
-      res.send('Hola ' + req.nombre + '!');
+      res.send('Hola ' + req.params.nombre + '!');
   });
   ```
 - Rutas: Capturando varios parámetros `http://localhost:8080/desde/Madrid/a/Malga`, `http://localhost:8080/desde/Madrid/a/NYC`
