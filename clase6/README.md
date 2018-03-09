@@ -169,7 +169,7 @@
 - [gulp-jade](https://www.npmjs.org/package/gulp-jade)
   - Compilador de .jade a .html
 - [gulp-if](https://www.npmjs.org/package/gulp-if)
-  - Control adiccional para el flujo de subtareas
+  - Control adiccional para el flujo de subtareas.
 - [gulp-imagemin](https://www.npmjs.org/package/gulp-imagemin)
   - Minificación de imágenes con formato .png, .jpeg, .gif y .svg
   - [Más opciones](https://github.com/sindresorhus/gulp-imagemin#imageminoptions)
