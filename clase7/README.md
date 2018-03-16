@@ -1,5 +1,24 @@
 # Clase 7
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Contenidos**
+
+- [Testing Unitario](#testing-unitario)
+- [TDD](#tdd)
+- [Algunos datos recientes](#algunos-datos-recientes)
+- [Combo Breaker](#combo-breaker)
+  - [Mocha](#mocha)
+  - [Chai](#chai)
+- [Fakes (mock, spies, stub)](#fakes-mock-spies-stub)
+- [Sinon.js](#sinonjs)
+  - [Spies](#spies)
+  - [Stubs](#stubs)
+- [Ejercicios](#ejercicios)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+
 ### Testing Unitario
 
 > Una prueba unitaria es una forma de comprobar el correcto funcionamiento de una unidad de código.
