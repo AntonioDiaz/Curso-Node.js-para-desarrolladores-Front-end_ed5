@@ -1,5 +1,22 @@
 # Clase 8
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Contenidos**
+
+- [Bots vs Chat Bots](#bots-vs-chat-bots)
+- [Frameworks](#frameworks)
+- [Hubot](#hubot)
+  - [Getting Started](#getting-started)
+  - [Adapters](#adapters)
+  - [Scripts](#scripts)
+    - [Añadiendo scripts externos](#a%C3%B1adiendo-scripts-externos)
+  - [Arquitectura de un bot](#arquitectura-de-un-bot)
+  - [Despliegue en Heroku](#despliegue-en-heroku)
+- [Ejercicios](#ejercicios)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### Bots vs Chat Bots
 
 > Un bot es un programa informático que efectúa automáticamente tareas repetitivas a través de Internet, cuya realización por parte de una persona sería imposible o muy tediosa.
